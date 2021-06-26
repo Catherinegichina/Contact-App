@@ -2,16 +2,13 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clContact"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#FBDDDD"
-    app:cardCornerRadius="7dp"
+    app:cardCornerRadius="8dp"
     app:cardElevation="8dp">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/clContact"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
